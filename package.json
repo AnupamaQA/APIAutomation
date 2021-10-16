@@ -1,0 +1,14 @@
+{
+  "name": "apiautomationproject",
+  "version": "1.0.0",
+  "description": "Test Automation",
+  "main": "index.js",
+  "scripts": {
+    "apitest": "newman run Challenge.postman_collection.json -g global_variables_v1.json"
+  },
+  "author": "Anupama Ganji",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.3.0"
+  }
+}
